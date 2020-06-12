@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.container {   
+    background: url(../styles/images/bckg.jpg) no-repeat center/cover;
+    height: 100vh;
+    position: relative;
+}
+
+aside {
+    text-align: center;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    width: 53%;
+    height: 50%;
+}
+
+#error {
+    display: none;
+}
+
+h3 {
+    font-family: 'Indie Flower', cursive;
+    font-size: 34px;
+}
+
+input#input-task {
+    width: 74%;
+    padding: 7px;
+    font-size: 25px;
+    background-color: aliceblue;
+    font-family: 'Indie Flower', cursive;
+    border: 1px solid black;
+    border-radius: 16px;
+    box-shadow: 10px 6px 4px grey;
+}
+
+#add-btn {
+    padding: 7px;
+    width: 23%;
+    background: #94ad53d4;
+    color: black;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+    border-radius: 16px;
+    font-family: 'Indie Flower', cursive;
+    border: 1px solid black;
+    margin-bottom: 23px;
+    margin-left: 13px;
+    box-shadow: 10px 6px 4px grey;
+}
+
+#add-btn:hover {
+    opacity: 0.6;
+}
+
+
+ul li {
+    cursor: pointer;
+    padding: 18px 6px;
+    background: #eeefe8;
+    font-size: 18px;
+    transition: 0.2s;
+    list-style-type: none;
+    font-family: 'Indie Flower', cursive;
+    box-shadow: 10px 6px 4px grey;
+    border-radius: 12px;
+}
+
+.task:hover {
+    background-color: #f0f0f0;
+}
+
+input.checkbox {
+    margin: 12px;
+    height: 22px;
+    width: 5%;
+    transform: translate(-1em);
+    font-size: 22px;
+    border: none;
+    cursor: pointer;
+}
+
+span.task-text {
+    display: inline-block;
+    width: 80%;
+    text-align: initial;
+    font-size: 22px;
+}
+
+.delete-button {
+    cursor: pointer;
+    display: inline-block;
+    font-size: 22px;
+    transform: translate(-54px);
+    border: none;
+}
+
+.completed {
+    display: inline-block;
+    width: 80%;
+    text-align: initial;
+    font-size: 22px;
+    text-decoration: line-through;
+}
